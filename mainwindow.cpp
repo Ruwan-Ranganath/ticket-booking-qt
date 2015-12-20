@@ -16,3 +16,10 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+void MainWindow::on_SignIn_clicked()
+{
+    MainWindow mainwin;
+    mainwin.setModal(true);
+    mainwin.exec();
+}
