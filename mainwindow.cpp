@@ -6,6 +6,10 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+
+   QPixmap pic("C:/Users/Gantac/Desktop/QT project/england_tickets_banner.jpg");
+ui->label_pic->setPixmap(pic);
+
 }
 
 MainWindow::~MainWindow()
